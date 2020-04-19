@@ -4,6 +4,8 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
+  --ion-font-family: 'ubuntu';
+
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
@@ -229,4 +231,9 @@
   ion-title.title-large {
     --color: white;
   }
+}
+@font-face {
+  font-family: 'ubuntu';
+  font-weight: bold;
+  src: url('../assets/fonts/Ubuntu-Regular.ttf');
 }

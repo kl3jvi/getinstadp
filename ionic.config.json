@@ -1,5 +1,7 @@
 {
   "name": "plookie",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

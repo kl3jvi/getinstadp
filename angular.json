@@ -42,7 +42,8 @@
               },
               {
                 "input": "src/global.scss"
-              }
+              },"src/sitemap.xml",
+                "src/robots.txt"
             ],
             "scripts": []
           },

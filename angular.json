@@ -19,11 +19,17 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
+            "assets": [  {"src/sitemap.xml"},
+                       {"src/robots.txt"},
               {
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "assets"
+              },
+              {
+                "glob": "robots.txt",
+                "input": "src",
+                "output": "/robots.txt"
               },
               {
                "glob": "_redirects",

@@ -28,7 +28,12 @@
               {
                 "glob": "robots.txt",
                 "input": "src",
-                "output": "/robots.txt"
+                "output": "/"
+              },
+              {
+                "glob": "sitemap.xml",
+                "input": "src",
+                "output": "/"
               },
               {
                "glob": "_redirects",
